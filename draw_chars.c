@@ -1,6 +1,8 @@
 #include "draw.h"		/* for font */
 #include "stdio.h"		/* for putchar */
 
+extern const unsigned char font_5x7[][5];
+
 void print_char_5x7(char c)
 {
   c -= 0x20;
